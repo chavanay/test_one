@@ -1,0 +1,113 @@
+
+html,body {	margin: 0px;	padding: 0px;}
+
+body {	background-image: url(../images/restaurants.jpg);	background-position: center center; background-size: 1120px 1050px; background-repeat: no-repeat;	background-color: #EDCB9E;	margin: 20px}
+
+div#main {	width: 1024px;	margin: auto;}
+
+div#header {	padding-bottom: 20px;}
+
+div#tag2 {	float:left ;	margin-top: 10px;margin-left:350px;	color: #f90f16;	font-family: Arial, Helvetica, sans-serif;	font-size: 50px; background-color:yellow;	font-weight: bold;}
+
+#login_form {	position: center;	text-shadow:1px 1px #ff2f23;width: 200px;	border-radius: 4px;margin-left:100px;	top: 100px;	left: 10%;	background-color: #c8a57b;	border:2px solid #004b8d;	color:#FFF;	padding: 10px;	z-index: 101;}
+#login_form1 {	position: center;	text-shadow:1px 1px #ff2f23;width: 900px;	border-radius: 4px;margin-left:100px;	top: 100px;	left: 10%;	background-color: #c8a57b;	border:2px solid #004b8d;	color:#FFF;	padding: 10px;	z-index: 101;}
+
+#login_form input{	margin-bottom:10px;}
+
+.owner-header{background-color: #bc5a99; border:1px; width:200px;margin-left: 110px; font-weight:bold; font-size:20px;color: #f9e41d;}
+.owner-header1{background-color: #bc5a99; border:1px; width:300px;margin-left: 60px; font-weight:bold; font-size:20px;color: #f9e41d;}
+
+INPUT[type="submit"]{border-style: solid; border-width : 1px 1px 1px 1px; text-decoration : none;font-size: 12px; padding : 4px; border-color : #000000;
+    border-color:#ff0000;color:#ff0000;text-shadow:1px 1px #00ffff;background: rgb(28, 184, 65);text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background-color:transparent;-moz-border-radius: 10px;text-align:center; -webkit-border-radius: 10px;border-radius: 10px;
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);box-shadow: 0 0 4px rgba(0,0,0, .75);
+    line-height: 18px;  color: #fff94f;  text-decoration:none;  margin-bottom: 8px;  padding-left: 45px;  padding-right: 42px;
+}
+
+.owner-table {
+
+    border-collapse: collapse;
+    border: 5px solid green;
+    background-color:lightgreen;
+    text-align:center;
+    margin-left:70%
+}
+
+.owner-tabledetail {
+
+    border-collapse: collapse;
+    border: 5px solid green;
+    background-color: #ee7538;
+    text-align:center;
+    margin-left:10%;
+    border-spacing: 5px;
+    border-collapse: separate;margin-left:100px;margin-right:110px;
+}
+
+    p em
+       {
+           font-size:20px;
+       }
+
+    th {
+    height: 30px;width:100px;
+    }
+    a:link{
+        color:orangered;
+    }
+    a:visited{
+        color:mediumspringgreen
+    }
+
+    a:hover{
+        color:palevioletred;
+    }
+
+    .description,.timings
+    {
+        text-align:center;
+        background-color: aliceblue;
+        width:250px;
+        height:100px;
+        margin-left:10%;
+        margin-top:5%;
+    }
+
+INPUT[type="button"]{border-style: solid; border-width : 1px 1px 1px 1px; text-decoration : none;font-size: 12px; padding : 4px;
+    border-color : #000000;border-color:#ff0000;color:#ff0000;text-shadow:1px 1px #00ffff;background: rgb(28, 184, 65);border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);background-color:transparent;-moz-border-radius: 10px;text-align:center; -webkit-border-radius: 10px;
+    border-radius: 10px;-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);box-shadow: 0 0 4px rgba(0,0,0, .75);
+    line-height: 18px;
+    color: #fffa3d;
+    text-decoration:none;
+    margin-bottom: 8px;
+    padding-left: 45px;
+    padding-right: 34px;
+}
+.normalbutton INPUT[type="button"]{border-style: solid; border-width : 1px 1px 1px 1px; text-decoration : none;font-size: 12px;
+    text-shadow:1px 1px #00ffff;background: rgb(28, 184, 65);border-radius: 4px; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);background-color:transparent;-moz-border-radius: 10px;text-align:center; -webkit-border-radius: 10px;
+    border-radius: 10px;-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);box-shadow: 0 0 4px rgba(0,0,0, .75);
+    line-height: 10px;top-margin:5px;
+}
+
+  p#seating-arrangement {
+    background-color: #ef644f;text-align:center;font-weight:bold;margin-left:12%;margin-right:12%;font-size:20px;
+}
+
+#customer {
+    background-color:green;
+}
+a.independent
+{
+    background-color:lawngreen;font-size:150%;border:5px solid greenred;
+}
+#owner {background-color: #802773;}
+
+INPUT[type=submit]:hover{
+    text-shadow: 1px 2px 3px #33FBFF;
+    cursor:pointer;
+}
+INPUT[type=button]:hover{
+    text-shadow: 1px 2px 3px #33FBFF;
+    cursor:pointer;
+}
